@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41" started-at="2012-02-22T13:56:24Z" finished-at="2012-02-22T13:56:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41" started-at="2012-02-22T13:56:24Z" finished-at="2012-02-22T13:56:24Z">
+      <class name="tests.NewTest">
+        <test-method status="FAIL" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:null(tests.NewTest)]" name="f" duration-ms="14" started-at="2012-02-22T13:56:24Z" finished-at="2012-02-22T13:56:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+	Unhandled exception type Exception
+	Unhandled exception type Exception
+	Unhandled exception type Exception
+	Unhandled exception type Exception
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+	Unhandled exception type Exception
+	Unhandled exception type Exception
+	Unhandled exception type Exception
+	Unhandled exception type Exception
+
+	at tests.NewTest.f(NewTest.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:701)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:893)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1218)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:768)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1022)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:109)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:202)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:173)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+        </test-method> <!-- f -->
+        <test-method status="FAIL" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:null(tests.NewTest)]" name="f" duration-ms="2" started-at="2012-02-22T13:56:24Z" finished-at="2012-02-22T13:56:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+	Unhandled exception type Exception
+	Unhandled exception type Exception
+	Unhandled exception type Exception
+	Unhandled exception type Exception
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+	Unhandled exception type Exception
+	Unhandled exception type Exception
+	Unhandled exception type Exception
+	Unhandled exception type Exception
+
+	at tests.NewTest.f(NewTest.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:701)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:893)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1218)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:768)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1022)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:109)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:202)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:173)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+        </test-method> <!-- f -->
+      </class> <!-- tests.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
